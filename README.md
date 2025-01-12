@@ -15,24 +15,6 @@ The `vina.bat` file:
 - Creates an output directory for the docking results.
 - Loops through all ligand pdbqt files in the `ligands` folder and runs Vina for each ligand.
 - Saves the results in an output folder, naming them based on the ligand.
-- A sample batch file could look like this:
-
-```batch
-@echo off
-set receptor=path\to\5bq4.pdbqt
-set ligands=path\to\ligands\
-set output=path\to\output\
-set config=path\to\config.txt
-
-if not exist %output% mkdir %output%
-
-for %%f in (%ligands%*.pdbqt) do (
-    echo Docking ligand: %%f
-    vina --receptor %receptor% --ligand %%f --config %config% --out %output%\%%~nf_out.pdbqt --log %output%\%%~nf_log.txt
-)
-
-echo Docking simulations complete!
-pause
 
 ## How to Use:
 1. Ensure AutoDock Vina is installed and available in your system's PATH.
