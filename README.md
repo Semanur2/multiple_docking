@@ -1,6 +1,6 @@
 # Multiple Docking Project
 
-This repository contains files related to the docking simulations of the 5BQ4.PDB receptor with various ligands using AutoDock Vina.
+This repository contains files related to the docking simulations of the 5BQ4.PDB with various ligands using AutoDock Vina.
 
 ## Files Included:
 - **receptor pdbqt file**: Structure of the 5bq4.pdb receptor in pdbqt format.
