@@ -3,7 +3,7 @@
 This repository contains files related to the docking simulations of the 5BQ4.PDB receptor with various ligands using AutoDock Vina.
 
 ## Files Included:
-- **5QB4.PDB receptor pdbqt file**: Structure of the 5bq4.pdb receptor in pdbqt format.
+- **receptor pdbqt file**: Structure of the 5bq4.pdb receptor in pdbqt format.
 - **Ligands folder**: Contains 4343 ligand pdbqt files for docking simulations.
 - **config.txt**: Configuration file for docking simulations.
 - **vina batch file**: Windows batch file used to run multiple docking simulations using AutoDock Vina.
